@@ -1,17 +1,1157 @@
-manoram-premium-farms/
-│
-├── index.html
-├── about.html
-├── contact.html   ← YE NEW FILE
-├── robots.txt
-├── sitemap.xml
-│
-├── images/
-│   ├── logo-adinath.png
-│   ├── hero.jpg
-│   ├── lifestyle.jpg
-│   ├── location-map.jpg
-│   └── layout-plan.jpg
-│
-└── brochure/
-    └── manoram-brochure.pdf
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact Us | Shri Adinath Realty | Manoram Premium Farms</title>
+
+  <meta
+    name="description"
+    content="Contact Shri Adinath Realty in Bhopal for Manoram Premium Farms farmhouse plots near Ratibad Road. Enquire about plots, pricing, site visits and project details."
+  >
+
+  <meta
+    name="keywords"
+    content="Shri Adinath Realty contact, Manoram Premium Farms contact, farmhouse plots Bhopal, Ratibad farmhouse plots, real estate Bhopal"
+  >
+
+  <meta name="robots" content="index, follow">
+
+  <link
+    rel="canonical"
+    href="https://shriadinathrealty.com/contact.html"
+  >
+
+  <meta property="og:title" content="Contact Shri Adinath Realty">
+  <meta
+    property="og:description"
+    content="Get in touch with Shri Adinath Realty for Manoram Premium Farms near Ratibad Road, Bhopal."
+  >
+  <meta
+    property="og:url"
+    content="https://shriadinathrealty.com/contact.html"
+  >
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <style>
+
+    :root {
+      --green: #173d2c;
+      --green-dark: #102d21;
+      --green-light: #315744;
+      --cream: #f7f4ed;
+      --white: #ffffff;
+      --gold: #b99452;
+      --text: #17231c;
+      --muted: #68746d;
+      --border: #dfe4dd;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "DM Sans", sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .container {
+      width: min(1180px, 92%);
+      margin: auto;
+    }
+
+    /* HEADER */
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255,255,255,0.96);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav {
+      min-height: 78px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+    }
+
+    .logo img {
+      width: 175px;
+      height: auto;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .nav-links a {
+      transition: 0.25s;
+    }
+
+    .nav-links a:hover {
+      color: var(--gold);
+    }
+
+    .nav-cta {
+      background: var(--green);
+      color: white !important;
+      padding: 11px 18px;
+      border-radius: 30px;
+    }
+
+    .nav-cta:hover {
+      background: var(--green-dark);
+    }
+
+    /* HERO */
+
+    .hero {
+      background:
+        linear-gradient(
+          120deg,
+          rgba(16,45,33,0.98),
+          rgba(23,61,44,0.92)
+        );
+      color: white;
+      padding: 90px 0;
+    }
+
+    .hero-inner {
+      max-width: 850px;
+    }
+
+    .eyebrow {
+      color: #d9bc7e;
+      font-size: 12px;
+      letter-spacing: 2px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-family: "Playfair Display", serif;
+      font-size: clamp(42px, 6vw, 70px);
+      line-height: 1.05;
+      margin-bottom: 22px;
+    }
+
+    .hero p {
+      max-width: 680px;
+      color: #dbe5df;
+      font-size: 18px;
+    }
+
+    /* CONTACT SECTION */
+
+    .section {
+      padding: 90px 0;
+    }
+
+    .section-heading {
+      max-width: 700px;
+      margin-bottom: 45px;
+    }
+
+    .section-heading h2 {
+      font-family: "Playfair Display", serif;
+      font-size: clamp(32px, 5vw, 48px);
+      line-height: 1.15;
+      margin-bottom: 15px;
+    }
+
+    .section-heading p {
+      color: var(--muted);
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 30px;
+      align-items: stretch;
+    }
+
+    .contact-card,
+    .form-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 25px;
+      padding: 35px;
+      box-shadow: 0 12px 35px rgba(20,40,30,0.05);
+    }
+
+    .contact-card h3,
+    .form-card h3 {
+      font-family: "Playfair Display", serif;
+      font-size: 28px;
+      margin-bottom: 25px;
+    }
+
+    .contact-item {
+      padding: 20px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .contact-item:last-child {
+      border-bottom: 0;
+    }
+
+    .contact-label {
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      color: var(--gold);
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+
+    .contact-item a,
+    .contact-item strong {
+      font-size: 17px;
+      font-weight: 600;
+    }
+
+    .contact-item a:hover {
+      color: var(--gold);
+    }
+
+    /* FORM */
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    .field {
+      margin-bottom: 18px;
+    }
+
+    label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 7px;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      border: 1px solid #d6ddd7;
+      border-radius: 12px;
+      padding: 13px 14px;
+      font-family: inherit;
+      font-size: 14px;
+      outline: none;
+      background: #fbfcfa;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      border-color: var(--green);
+    }
+
+    textarea {
+      min-height: 125px;
+      resize: vertical;
+    }
+
+    .btn {
+      border: 0;
+      cursor: pointer;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      padding: 14px 22px;
+      border-radius: 30px;
+      font-weight: 700;
+      font-family: inherit;
+      font-size: 14px;
+    }
+
+    .btn-primary {
+      background: var(--green);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: var(--green-dark);
+    }
+
+    .whatsapp-btn {
+      background: #1f7a4c;
+      color: white;
+      width: 100%;
+      margin-top: 5px;
+    }
+
+    /* QUICK LINKS */
+
+    .quick-section {
+      background: #edf1eb;
+      padding: 75px 0;
+    }
+
+    .quick-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .quick-card {
+      background: white;
+      border: 1px solid var(--border);
+      padding: 28px;
+      border-radius: 20px;
+      transition: 0.25s;
+    }
+
+    .quick-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 15px 30px rgba(20,40,30,0.07);
+    }
+
+    .quick-card span {
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+    }
+
+    .quick-card h3 {
+      margin: 8px 0;
+      font-family: "Playfair Display", serif;
+      font-size: 23px;
+    }
+
+    .quick-card p {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .quick-card a {
+      color: var(--green);
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    /* CTA */
+
+    .cta {
+      padding: 80px 0;
+      background: var(--green);
+      color: white;
+      text-align: center;
+    }
+
+    .cta h2 {
+      font-family: "Playfair Display", serif;
+      font-size: clamp(32px, 5vw, 50px);
+      margin-bottom: 15px;
+    }
+
+    .cta p {
+      color: #d7e1db;
+      max-width: 650px;
+      margin: 0 auto 28px;
+    }
+
+    .cta-buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .btn-light {
+      background: white;
+      color: var(--green);
+    }
+
+    .btn-outline {
+      border: 1px solid rgba(255,255,255,0.5);
+      color: white;
+    }
+
+    /* FOOTER */
+
+    footer {
+      background: #0d241a;
+      color: white;
+      padding: 45px 0 25px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr;
+      gap: 40px;
+    }
+
+    footer h3 {
+      font-family: "Playfair Display", serif;
+      font-size: 22px;
+      margin-bottom: 12px;
+    }
+
+    footer p,
+    footer a {
+      color: #b9c7bf;
+      font-size: 14px;
+    }
+
+    footer a:hover {
+      color: white;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .copyright {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255,255,255,0.12);
+      color: #91a198;
+      font-size: 12px;
+    }
+
+    /* MOBILE */
+
+    @media (max-width: 850px) {
+
+      .nav {
+        min-height: 70px;
+      }
+
+      .logo img {
+        width: 145px;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .hero {
+        padding: 70px 0;
+      }
+
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .quick-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+
+      .section {
+        padding: 65px 0;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+  <div class="container nav">
+
+    <a href="/" class="logo">
+      <img
+        src="images/logo-adinath.png"
+        alt="Shri Adinath Realty"
+      >
+    </a>
+
+    <nav class="nav-links">
+
+      <a href="/">Home</a>
+
+      <a href="about.html">About Us</a>
+
+      <a href="/#amenities">Amenities</a>
+
+      <a href="/#location">Location</a>
+
+      <a href="/#plots">Plots</a>
+
+      <a href="contact.html">Contact</a>
+
+      <a
+        href="https://wa.me/919630947909"
+        target="_blank"
+        rel="noopener"
+        class="nav-cta"
+      >
+        WhatsApp
+      </a>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+  <div class="container">
+
+    <div class="hero-inner">
+
+      <div class="eyebrow">
+        SHRI ADINATH REALTY · BHOPAL
+      </div>
+
+      <h1>
+        Let's talk about your next property.
+      </h1>
+
+      <p>
+        Have questions about Manoram Premium Farms,
+        plot availability, project details or a site visit?
+        Get in touch with Shri Adinath Realty.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="section">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <div class="eyebrow">
+        GET IN TOUCH
+      </div>
+
+      <h2>
+        Contact Shri Adinath Realty
+      </h2>
+
+      <p>
+        Our team can help you with project information,
+        plot selection, site visits and the purchase process
+        for Manoram Premium Farms.
+      </p>
+
+    </div>
+
+
+    <div class="contact-grid">
+
+
+      <!-- CONTACT INFORMATION -->
+
+      <div class="contact-card">
+
+        <h3>
+          Contact Information
+        </h3>
+
+
+        <div class="contact-item">
+
+          <div class="contact-label">
+            Phone
+          </div>
+
+          <a href="tel:+919630947909">
+            +91 9630947909
+          </a>
+
+        </div>
+
+
+        <div class="contact-item">
+
+          <div class="contact-label">
+            WhatsApp
+          </div>
+
+          <a
+            href="https://wa.me/919630947909"
+            target="_blank"
+            rel="noopener"
+          >
+            Chat with us on WhatsApp
+          </a>
+
+        </div>
+
+
+        <div class="contact-item">
+
+          <div class="contact-label">
+            Project
+          </div>
+
+          <strong>
+            MANORAM PREMIUM FARMS
+          </strong>
+
+        </div>
+
+
+        <div class="contact-item">
+
+          <div class="contact-label">
+            Location
+          </div>
+
+          <strong>
+            Near Ratibad Road, Bhopal,
+            Madhya Pradesh
+          </strong>
+
+        </div>
+
+
+        <div class="contact-item">
+
+          <div class="contact-label">
+            Business
+          </div>
+
+          <strong>
+            SHRI ADINATH REALTY
+          </strong>
+
+        </div>
+
+      </div>
+
+
+      <!-- WHATSAPP FORM -->
+
+      <div class="form-card">
+
+        <h3>
+          Request a Site Visit
+        </h3>
+
+        <form id="contactForm">
+
+          <div class="form-row">
+
+            <div class="field">
+
+              <label for="name">
+                Your Name *
+              </label>
+
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+              >
+
+            </div>
+
+
+            <div class="field">
+
+              <label for="phone">
+                Mobile Number *
+              </label>
+
+              <input
+                type="tel"
+                id="phone"
+                placeholder="Enter mobile number"
+                required
+              >
+
+            </div>
+
+          </div>
+
+
+          <div class="form-row">
+
+            <div class="field">
+
+              <label for="date">
+                Preferred Date
+              </label>
+
+              <input
+                type="date"
+                id="date"
+              >
+
+            </div>
+
+
+            <div class="field">
+
+              <label for="time">
+                Preferred Time
+              </label>
+
+              <select id="time">
+
+                <option value="">
+                  Select time
+                </option>
+
+                <option>
+                  Morning
+                </option>
+
+                <option>
+                  Afternoon
+                </option>
+
+                <option>
+                  Evening
+                </option>
+
+              </select>
+
+            </div>
+
+          </div>
+
+
+          <div class="field">
+
+            <label for="purpose">
+              I'm interested in
+            </label>
+
+            <select id="purpose">
+
+              <option value="">
+                Select an option
+              </option>
+
+              <option>
+                Farmhouse Plot
+              </option>
+
+              <option>
+                Site Visit
+              </option>
+
+              <option>
+                Plot Availability
+              </option>
+
+              <option>
+                Project Information
+              </option>
+
+              <option>
+                Investment Enquiry
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <div class="field">
+
+            <label for="message">
+              Message
+            </label>
+
+            <textarea
+              id="message"
+              placeholder="Tell us what you would like to know..."
+            ></textarea>
+
+          </div>
+
+
+          <button
+            type="submit"
+            class="btn whatsapp-btn"
+          >
+            Send Enquiry on WhatsApp →
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- QUICK NAVIGATION -->
+
+<section class="quick-section">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <div class="eyebrow">
+        EXPLORE THE PROJECT
+      </div>
+
+      <h2>
+        Know Manoram Premium Farms
+      </h2>
+
+      <p>
+        Explore the project, location, amenities and
+        available plot sizes before planning your visit.
+      </p>
+
+    </div>
+
+
+    <div class="quick-grid">
+
+
+      <div class="quick-card">
+
+        <span>
+          ABOUT
+        </span>
+
+        <h3>
+          Shri Adinath Realty
+        </h3>
+
+        <p>
+          Learn more about the company and its approach
+          to property opportunities in Bhopal.
+        </p>
+
+        <a href="about.html">
+          About Us →
+        </a>
+
+      </div>
+
+
+      <div class="quick-card">
+
+        <span>
+          PROJECT
+        </span>
+
+        <h3>
+          Manoram Premium Farms
+        </h3>
+
+        <p>
+          Explore project amenities, farmhouse lifestyle
+          features and available plot sizes.
+        </p>
+
+        <a href="/#amenities">
+          View Amenities →
+        </a>
+
+      </div>
+
+
+      <div class="quick-card">
+
+        <span>
+          LOCATION
+        </span>
+
+        <h3>
+          Ratibad Road, Bhopal
+        </h3>
+
+        <p>
+          Check the project location and nearby landmarks
+          around Ratibad Road.
+        </p>
+
+        <a href="/#location">
+          View Location →
+        </a>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CTA -->
+
+<section class="cta">
+
+  <div class="container">
+
+    <h2>
+      Ready to explore Manoram Premium Farms?
+    </h2>
+
+    <p>
+      Speak with Shri Adinath Realty or schedule a
+      site visit to explore the project in person.
+    </p>
+
+    <div class="cta-buttons">
+
+      <a
+        href="tel:+919630947909"
+        class="btn btn-light"
+      >
+        Call +91 9630947909
+      </a>
+
+
+      <a
+        href="https://wa.me/919630947909?text=Hello%20Shri%20Adinath%20Realty,%20I%20am%20interested%20in%20Manoram%20Premium%20Farms."
+        target="_blank"
+        rel="noopener"
+        class="btn btn-outline"
+      >
+        WhatsApp Us
+      </a>
+
+
+      <a
+        href="/"
+        class="btn btn-outline"
+      >
+        Back to Home
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+  <div class="container">
+
+    <div class="footer-grid">
+
+
+      <div>
+
+        <h3>
+          SHRI ADINATH REALTY
+        </h3>
+
+        <p>
+          Real estate opportunities in Bhopal,
+          including Manoram Premium Farms near
+          Ratibad Road.
+        </p>
+
+      </div>
+
+
+      <div>
+
+        <h3>
+          Quick Links
+        </h3>
+
+        <div class="footer-links">
+
+          <a href="/">
+            Home
+          </a>
+
+          <a href="about.html">
+            About Us
+          </a>
+
+          <a href="/#amenities">
+            Amenities
+          </a>
+
+          <a href="/#location">
+            Location
+          </a>
+
+          <a href="/#plots">
+            Plots
+          </a>
+
+          <a href="contact.html">
+            Contact Us
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div>
+
+        <h3>
+          Contact
+        </h3>
+
+        <div class="footer-links">
+
+          <a href="tel:+919630947909">
+            +91 9630947909
+          </a>
+
+          <a
+            href="https://wa.me/919630947909"
+            target="_blank"
+            rel="noopener"
+          >
+            WhatsApp
+          </a>
+
+          <a href="/">
+            Bhopal, Madhya Pradesh
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+      © 2026 Shri Adinath Realty. All rights reserved.
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+<script>
+
+  document
+    .getElementById("contactForm")
+    .addEventListener("submit", function(e) {
+
+      e.preventDefault();
+
+      const name =
+        document.getElementById("name").value.trim();
+
+      const phone =
+        document.getElementById("phone").value.trim();
+
+      const date =
+        document.getElementById("date").value;
+
+      const time =
+        document.getElementById("time").value;
+
+      const purpose =
+        document.getElementById("purpose").value;
+
+      const message =
+        document.getElementById("message").value.trim();
+
+
+      const whatsappMessage =
+`Hello Shri Adinath Realty,
+
+I am interested in MANORAM PREMIUM FARMS.
+
+Name: ${name}
+Mobile: ${phone}
+Preferred Date: ${date || "Not specified"}
+Preferred Time: ${time || "Not specified"}
+Interested In: ${purpose || "Not specified"}
+
+Message:
+${message || "I would like more information about the project."}`;
+
+
+      const whatsappURL =
+        "https://wa.me/919630947909?text=" +
+        encodeURIComponent(whatsappMessage);
+
+
+      window.open(
+        whatsappURL,
+        "_blank"
+      );
+
+    });
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+from PIL import Image
+import numpy as np
+
+src = "/mnt/data/Screenshot_20260913_102655.jpg"
+out = "/mnt/data/logo-adinath.png"
+
+im = Image.open(src).convert("RGBA")
+
+# Crop only the actual logo area, excluding the screenshot's outer rounded border.
+crop = im.crop((170, 210, 1320, 930))
+
+arr = np.array(crop)
+
+# Make the white background transparent while preserving the navy/gold logo.
+rgb = arr[:, :, :3].astype(np.int16)
+brightness = rgb.mean(axis=2)
+spread = rgb.max(axis=2) - rgb.min(axis=2)
+
+# Mostly-white pixels become transparent.
+alpha = np.where((brightness > 238) & (spread < 18), 0, 255).astype(np.uint8)
+
+# Smooth the transition around anti-aliased white edges.
+near = (brightness > 220) & (spread < 28)
+alpha[near] = np.minimum(alpha[near], np.maximum(0, ((245 - brightness[near]) * 10)).astype(np.uint8))
+
+arr[:, :, 3] = alpha
+
+result = Image.fromarray(arr, "RGBA")
+
+# Trim transparent margins.
+bbox = result.getbbox()
+if bbox:
+    result = result.crop(bbox)
+
+# Keep a clean web-friendly size.
+result.thumbnail((1000, 700), Image.Resampling.LANCZOS)
+result.save(out, "PNG", optimize=True)
+
+print(f"Created: {out}")
+print(f"Size: {result.size[0]} x {result.size[1]} px")

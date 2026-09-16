@@ -1,0 +1,2268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- =========================
+       BASIC SEO
+  ========================== -->
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="theme-color"
+    content="#173d2c"
+  >
+
+  <title>
+    About Shri Adinath Realty | Manoram Premium Farms Bhopal
+  </title>
+
+  <meta
+    name="description"
+    content="Learn about Shri Adinath Realty, a Bhopal-based real estate company presenting Manoram Premium Farms near Ratibad Road, Bhopal. Explore the project, amenities, location and site visit information."
+  >
+
+  <meta
+    name="robots"
+    content="index, follow"
+  >
+
+  <link
+    rel="canonical"
+    href="https://shriadinathrealty.com/about.html"
+  >
+
+
+  <!-- =========================
+       OPEN GRAPH
+  ========================== -->
+
+  <meta
+    property="og:title"
+    content="About Shri Adinath Realty | Manoram Premium Farms"
+  >
+
+  <meta
+    property="og:description"
+    content="Know more about Shri Adinath Realty and Manoram Premium Farms near Ratibad Road, Bhopal."
+  >
+
+  <meta
+    property="og:type"
+    content="website"
+  >
+
+  <meta
+    property="og:url"
+    content="https://shriadinathrealty.com/about.html"
+  >
+
+  <meta
+    property="og:site_name"
+    content="Shri Adinath Realty"
+  >
+
+
+  <!-- =========================
+       FONTS
+  ========================== -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+
+  <!-- =========================
+       STYLES
+  ========================== -->
+
+  <style>
+
+    :root {
+
+      --forest: #173d2c;
+      --forest-dark: #0e291d;
+      --forest-light: #28563f;
+
+      --gold: #c89a3c;
+      --gold-light: #e6c878;
+
+      --cream: #f7f2e7;
+
+      --white: #ffffff;
+
+      --text: #17251e;
+      --muted: #68746d;
+
+      --border:
+        rgba(23,61,44,0.13);
+
+      --shadow:
+        0 20px 60px
+        rgba(14,41,29,0.12);
+
+      --radius: 24px;
+
+      --max-width: 1180px;
+    }
+
+
+    /* RESET */
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+
+    body {
+
+      font-family:
+        "DM Sans",
+        Arial,
+        sans-serif;
+
+      background: #fffdf8;
+
+      color: var(--text);
+
+      line-height: 1.7;
+
+      overflow-x: hidden;
+    }
+
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+
+    .container {
+
+      width:
+        min(
+          var(--max-width),
+          calc(100% - 40px)
+        );
+
+      margin: auto;
+    }
+
+
+    /* =========================
+       TOP BAR
+    ========================== */
+
+    .topbar {
+
+      background:
+        var(--forest-dark);
+
+      color:
+        rgba(255,255,255,0.82);
+
+      font-size: 12px;
+    }
+
+
+    .topbar-inner {
+
+      min-height: 38px;
+
+      display: flex;
+
+      justify-content:
+        space-between;
+
+      align-items:
+        center;
+    }
+
+
+    .topbar a {
+
+      color:
+        rgba(255,255,255,0.9);
+
+      font-weight: 600;
+    }
+
+
+    /* =========================
+       HEADER
+    ========================== */
+
+    header {
+
+      position: sticky;
+
+      top: 0;
+
+      z-index: 1000;
+
+      background:
+        rgba(255,253,248,0.95);
+
+      backdrop-filter:
+        blur(15px);
+
+      border-bottom:
+        1px solid var(--border);
+    }
+
+
+    .nav {
+
+      min-height: 78px;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content:
+        space-between;
+
+      gap: 25px;
+    }
+
+
+    /* LOGO */
+
+    .brand {
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 12px;
+
+      flex-shrink: 0;
+    }
+
+
+    .brand img {
+
+      width: 54px;
+
+      height: 54px;
+
+      object-fit: contain;
+    }
+
+
+    .brand-name {
+
+      font-family:
+        "Playfair Display",
+        serif;
+
+      color: var(--forest);
+
+      font-size: 18px;
+
+      font-weight: 600;
+
+      line-height: 1.1;
+    }
+
+
+    .brand-sub {
+
+      display: block;
+
+      color: var(--gold);
+
+      font-size: 9px;
+
+      font-weight: 700;
+
+      letter-spacing: 0.18em;
+
+      margin-top: 4px;
+    }
+
+
+    /* NAVIGATION */
+
+    .nav-links {
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 22px;
+
+      font-size: 13px;
+
+      font-weight: 600;
+
+      color: #405048;
+    }
+
+
+    .nav-links a {
+
+      transition:
+        0.25s ease;
+    }
+
+
+    .nav-links a:hover {
+
+      color: var(--gold);
+    }
+
+
+    .nav-cta {
+
+      background:
+        var(--forest);
+
+      color:
+        white !important;
+
+      padding:
+        11px 18px;
+
+      border-radius:
+        50px;
+    }
+
+
+    /* =========================
+       HERO
+    ========================== */
+
+    .hero {
+
+      padding:
+        105px 0
+        95px;
+
+      color: white;
+
+      background:
+
+        linear-gradient(
+          110deg,
+          rgba(8,31,21,0.96),
+          rgba(23,61,44,0.92)
+        );
+    }
+
+
+    .eyebrow {
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 10px;
+
+      color:
+        var(--gold-light);
+
+      text-transform:
+        uppercase;
+
+      letter-spacing:
+        0.18em;
+
+      font-size:
+        11px;
+
+      font-weight:
+        700;
+
+      margin-bottom:
+        18px;
+    }
+
+
+    .eyebrow::before {
+
+      content: "";
+
+      width: 35px;
+
+      height: 1px;
+
+      background:
+        var(--gold-light);
+    }
+
+
+    .hero h1 {
+
+      max-width: 850px;
+
+      font-family:
+        "Playfair Display",
+        serif;
+
+      font-size:
+        clamp(
+          44px,
+          7vw,
+          78px
+        );
+
+      line-height:
+        1.02;
+
+      letter-spacing:
+        -0.035em;
+    }
+
+
+    .hero p {
+
+      max-width:
+        760px;
+
+      margin-top:
+        24px;
+
+      color:
+        rgba(255,255,255,0.78);
+
+      font-size:
+        17px;
+    }
+
+
+    .hero-buttons {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 12px;
+
+      margin-top:
+        30px;
+    }
+
+
+    .btn {
+
+      min-height:
+        50px;
+
+      display: inline-flex;
+
+      align-items:
+        center;
+
+      justify-content:
+        center;
+
+      padding:
+        0 23px;
+
+      border-radius:
+        50px;
+
+      font-size:
+        13px;
+
+      font-weight:
+        700;
+
+      transition:
+        0.25s ease;
+    }
+
+
+    .btn-primary {
+
+      background:
+        var(--gold);
+
+      color:
+        white;
+    }
+
+
+    .btn-outline {
+
+      border:
+        1px solid
+        rgba(255,255,255,0.3);
+
+      color:
+        white;
+
+      background:
+        rgba(255,255,255,0.06);
+    }
+
+
+    .btn:hover {
+
+      transform:
+        translateY(-2px);
+    }
+
+
+    /* =========================
+       INTRO
+    ========================== */
+
+    .section {
+
+      padding:
+        100px 0;
+    }
+
+
+    .intro-grid {
+
+      display: grid;
+
+      grid-template-columns:
+        1.2fr 0.8fr;
+
+      gap:
+        65px;
+
+      align-items:
+        start;
+    }
+
+
+    .section-label {
+
+      color:
+        var(--gold);
+
+      font-size:
+        11px;
+
+      text-transform:
+        uppercase;
+
+      letter-spacing:
+        0.18em;
+
+      font-weight:
+        700;
+
+      margin-bottom:
+        12px;
+    }
+
+
+    h2 {
+
+      font-family:
+        "Playfair Display",
+        serif;
+
+      color:
+        var(--forest);
+
+      font-size:
+        clamp(
+          34px,
+          5vw,
+          55px
+        );
+
+      line-height:
+        1.08;
+
+      margin-bottom:
+        22px;
+    }
+
+
+    .content p {
+
+      color:
+        var(--muted);
+
+      font-size:
+        15px;
+
+      margin-bottom:
+        18px;
+    }
+
+
+    /* =========================
+       BUSINESS CARD
+    ========================== */
+
+    .business-card {
+
+      background:
+        var(--cream);
+
+      border:
+        1px solid var(--border);
+
+      border-radius:
+        24px;
+
+      padding:
+        32px;
+
+      box-shadow:
+        var(--shadow);
+    }
+
+
+    .business-card h3 {
+
+      font-family:
+        "Playfair Display",
+        serif;
+
+      color:
+        var(--forest);
+
+      font-size:
+        27px;
+
+      margin-bottom:
+        20px;
+    }
+
+
+    .detail {
+
+      padding:
+        15px 0;
+
+      border-bottom:
+        1px solid var(--border);
+    }
+
+
+    .detail:last-child {
+
+      border-bottom:
+        0;
+    }
+
+
+    .detail strong {
+
+      display: block;
+
+      color:
+        var(--forest);
+
+      font-size:
+        13px;
+
+      margin-bottom:
+        3px;
+    }
+
+
+    .detail span {
+
+      color:
+        var(--muted);
+
+      font-size:
+        13px;
+    }
+
+
+    /* =========================
+       PROJECT SECTION
+    ========================== */
+
+    .soft-section {
+
+      background:
+        var(--cream);
+    }
+
+
+    .section-heading {
+
+      max-width:
+        750px;
+
+      margin-bottom:
+        45px;
+    }
+
+
+    .section-heading p {
+
+      color:
+        var(--muted);
+
+      font-size:
+        15px;
+    }
+
+
+    .project-grid {
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(3,1fr);
+
+      gap:
+        16px;
+    }
+
+
+    .project-card {
+
+      background:
+        white;
+
+      border:
+        1px solid var(--border);
+
+      border-radius:
+        20px;
+
+      padding:
+        25px;
+
+      transition:
+        0.25s ease;
+    }
+
+
+    .project-card:hover {
+
+      transform:
+        translateY(-4px);
+
+      box-shadow:
+        var(--shadow);
+    }
+
+
+    .project-card-number {
+
+      color:
+        var(--gold);
+
+      font-size:
+        12px;
+
+      font-weight:
+        700;
+
+      letter-spacing:
+        0.12em;
+
+      margin-bottom:
+        12px;
+    }
+
+
+    .project-card h3 {
+
+      font-family:
+        "Playfair Display",
+        serif;
+
+      color:
+        var(--forest);
+
+      font-size:
+        22px;
+
+      margin-bottom:
+        8px;
+    }
+
+
+    .project-card p {
+
+      color:
+        var(--muted);
+
+      font-size:
+        13px;
+
+      margin: 0;
+    }
+
+
+    /* =========================
+       WHY MANORAM
+    ========================== */
+
+    .why-grid {
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(2,1fr);
+
+      gap:
+        16px;
+    }
+
+
+    .why-card {
+
+      padding:
+        27px;
+
+      border:
+        1px solid var(--border);
+
+      border-radius:
+        20px;
+
+      background:
+        white;
+    }
+
+
+    .why-card h3 {
+
+      color:
+        var(--forest);
+
+      font-family:
+        "Playfair Display",
+        serif;
+
+      font-size:
+        23px;
+
+      margin-bottom:
+        8px;
+    }
+
+
+    .why-card p {
+
+      color:
+        var(--muted);
+
+      font-size:
+        13px;
+
+      margin: 0;
+    }
+
+
+    /* =========================
+       LOCATION
+    ========================== */
+
+    .location-box {
+
+      background:
+        var(--forest);
+
+      color:
+        white;
+
+      border-radius:
+        28px;
+
+      padding:
+        45px;
+
+      display:
+        grid;
+
+      grid-template-columns:
+        1fr 1fr;
+
+      gap:
+        45px;
+
+      align-items:
+        center;
+    }
+
+
+    .location-box h2 {
+
+      color:
+        white;
+
+      margin-bottom:
+        15px;
+    }
+
+
+    .location-box p {
+
+      color:
+        rgba(255,255,255,0.72);
+
+      font-size:
+        14px;
+    }
+
+
+    .location-list {
+
+      display:
+        grid;
+
+      gap:
+        12px;
+    }
+
+
+    .location-item {
+
+      padding:
+        16px 18px;
+
+      border:
+        1px solid
+        rgba(255,255,255,0.12);
+
+      border-radius:
+        14px;
+
+      background:
+        rgba(255,255,255,0.05);
+    }
+
+
+    .location-item strong {
+
+      display: block;
+
+      color:
+        white;
+
+      font-size:
+        14px;
+    }
+
+
+    .location-item span {
+
+      color:
+        rgba(255,255,255,0.65);
+
+      font-size:
+        12px;
+    }
+
+
+    /* =========================
+       DISCLAIMER
+    ========================== */
+
+    .disclaimer {
+
+      margin-top:
+        35px;
+
+      padding:
+        20px 22px;
+
+      border-left:
+        3px solid var(--gold);
+
+      background:
+        rgba(200,154,60,0.08);
+
+      border-radius:
+        0 15px 15px 0;
+
+      color:
+        var(--muted);
+
+      font-size:
+        12px;
+    }
+
+
+    /* =========================
+       CTA
+    ========================== */
+
+    .cta {
+
+      background:
+        var(--forest-dark);
+
+      color:
+        white;
+
+      border-radius:
+        28px;
+
+      padding:
+        45px;
+
+      display:
+        flex;
+
+      align-items:
+        center;
+
+      justify-content:
+        space-between;
+
+      gap:
+        30px;
+    }
+
+
+    .cta h2 {
+
+      color:
+        white;
+
+      margin-bottom:
+        8px;
+    }
+
+
+    .cta p {
+
+      color:
+        rgba(255,255,255,0.7);
+
+      margin: 0;
+
+      font-size:
+        14px;
+    }
+
+
+    /* =========================
+       FOOTER
+    ========================== */
+
+    footer {
+
+      background:
+        #0b2016;
+
+      color:
+        rgba(255,255,255,0.65);
+
+      padding:
+        45px 0 30px;
+    }
+
+
+    .footer-grid {
+
+      display:
+        grid;
+
+      grid-template-columns:
+        1.4fr 0.7fr 0.7fr;
+
+      gap:
+        45px;
+
+      padding-bottom:
+        35px;
+    }
+
+
+    .footer-brand {
+
+      font-family:
+        "Playfair Display",
+        serif;
+
+      font-size:
+        22px;
+
+      color:
+        white;
+
+      margin-bottom:
+        10px;
+    }
+
+
+    .footer p {
+
+      font-size:
+        12px;
+
+      max-width:
+        400px;
+    }
+
+
+    .footer-title {
+
+      color:
+        white;
+
+      font-size:
+        12px;
+
+      font-weight:
+        700;
+
+      margin-bottom:
+        12px;
+    }
+
+
+    .footer-links {
+
+      display:
+        grid;
+
+      gap:
+        8px;
+    }
+
+
+    .footer-links a {
+
+      font-size:
+        12px;
+
+      transition:
+        0.2s ease;
+    }
+
+
+    .footer-links a:hover {
+
+      color:
+        var(--gold-light);
+    }
+
+
+    .copyright {
+
+      border-top:
+        1px solid
+        rgba(255,255,255,0.1);
+
+      padding-top:
+        22px;
+
+      text-align:
+        center;
+
+      font-size:
+        11px;
+    }
+
+
+    /* =========================
+       MOBILE
+    ========================== */
+
+    @media(max-width:800px) {
+
+      .nav-links {
+
+        display:
+          none;
+      }
+
+
+      .intro-grid,
+      .location-box {
+
+        grid-template-columns:
+          1fr;
+      }
+
+
+      .project-grid {
+
+        grid-template-columns:
+          1fr 1fr;
+      }
+
+
+      .footer-grid {
+
+        grid-template-columns:
+          1fr 1fr;
+      }
+
+
+      .cta {
+
+        flex-direction:
+          column;
+
+        align-items:
+          flex-start;
+      }
+
+    }
+
+
+    @media(max-width:560px) {
+
+      .container {
+
+        width:
+          min(
+            100% - 28px,
+            var(--max-width)
+          );
+      }
+
+
+      .topbar-inner {
+
+        justify-content:
+          center;
+      }
+
+
+      .topbar-inner span {
+
+        display:
+          none;
+      }
+
+
+      .brand img {
+
+        width:
+          45px;
+
+        height:
+          45px;
+      }
+
+
+      .brand-name {
+
+        font-size:
+          16px;
+      }
+
+
+      .hero {
+
+        padding:
+          75px 0
+          65px;
+      }
+
+
+      .section {
+
+        padding:
+          70px 0;
+      }
+
+
+      .project-grid,
+      .why-grid,
+      .footer-grid {
+
+        grid-template-columns:
+          1fr;
+      }
+
+
+      .business-card,
+      .location-box,
+      .cta {
+
+        padding:
+          28px;
+      }
+
+    }
+
+  </style>
+
+
+  <!-- =========================
+       STRUCTURED DATA
+  ========================== -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "@id": "https://shriadinathrealty.com/#organization",
+    "name": "Shri Adinath Realty",
+    "url": "https://shriadinathrealty.com/",
+    "telephone": "+91 9630947909",
+    "description": "Shri Adinath Realty is a real estate company based in Bhopal, Madhya Pradesh, presenting Manoram Premium Farms near Ratibad Road, Bhopal.",
+    "areaServed": {
+      "@type": "City",
+      "name": "Bhopal"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bhopal",
+      "addressRegion": "Madhya Pradesh",
+      "addressCountry": "IN"
+    }
+  }
+  </script>
+
+
+  <!-- BREADCRUMB SCHEMA -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://shriadinathrealty.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "About Us",
+        "item": "https://shriadinathrealty.com/about.html"
+      }
+    ]
+  }
+  </script>
+
+</head>
+
+
+<body>
+
+
+  <!-- =========================
+       TOP BAR
+  ========================== -->
+
+  <div class="topbar">
+
+    <div class="container topbar-inner">
+
+      <span>
+        MANORAM PREMIUM FARMS · NEAR RATIBAD ROAD · BHOPAL
+      </span>
+
+      <a href="tel:+919630947909">
+        Call +91 9630947909
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- =========================
+       HEADER
+  ========================== -->
+
+  <header>
+
+    <div class="container nav">
+
+
+      <!-- LOGO -->
+
+      <a
+        href="/"
+        class="brand"
+        aria-label="Shri Adinath Realty Home"
+      >
+
+        <img
+          src="images/logo-adinath.png"
+          alt="Shri Adinath Realty logo"
+        >
+
+        <span>
+
+          <span class="brand-name">
+            SHRI ADINATH
+          </span>
+
+          <span class="brand-sub">
+            REALTY
+          </span>
+
+        </span>
+
+      </a>
+
+
+      <!-- INTERLINKING NAVIGATION -->
+
+      <nav class="nav-links">
+
+        <a href="/">
+          Home
+        </a>
+
+        <a href="about.html">
+          About Us
+        </a>
+
+        <a href="/#amenities">
+          Amenities
+        </a>
+
+        <a href="/#location">
+          Location
+        </a>
+
+        <a href="/#plots">
+          Plots
+        </a>
+
+        <a href="contact.html">
+          Contact
+        </a>
+
+        <a
+          href="https://wa.me/919630947909"
+          class="nav-cta"
+          target="_blank"
+          rel="noopener"
+        >
+          WhatsApp
+        </a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <!-- =========================
+       HERO
+  ========================== -->
+
+  <section class="hero">
+
+    <div class="container">
+
+      <div class="eyebrow">
+        About Shri Adinath Realty
+      </div>
+
+      <h1>
+        Creating space for better
+        property choices.
+      </h1>
+
+      <p>
+        Shri Adinath Realty is a real estate company based in
+        Bhopal, Madhya Pradesh, presenting thoughtfully planned
+        property opportunities including Manoram Premium Farms
+        near Ratibad Road, Bhopal.
+      </p>
+
+
+      <div class="hero-buttons">
+
+        <a
+          href="/"
+          class="btn btn-primary"
+        >
+          Explore Manoram Premium Farms →
+        </a>
+
+        <a
+          href="contact.html"
+          class="btn btn-outline"
+        >
+          Contact Us
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       ABOUT COMPANY
+  ========================== -->
+
+  <section class="section">
+
+    <div class="container intro-grid">
+
+
+      <div class="content">
+
+        <div class="section-label">
+          Who We Are
+        </div>
+
+        <h2>
+          Shri Adinath Realty
+        </h2>
+
+        <p>
+          Shri Adinath Realty is a Bhopal-based real estate
+          company focused on presenting property opportunities
+          for customers looking for space, location and
+          lifestyle-oriented options.
+        </p>
+
+        <p>
+          One of the featured projects presented by Shri Adinath
+          Realty is <strong>Manoram Premium Farms</strong>,
+          located near Ratibad Road, Bhopal.
+        </p>
+
+        <p>
+          Manoram Premium Farms is planned around the idea of
+          farmhouse-style living, open surroundings and a
+          nature-oriented lifestyle while remaining connected
+          to Bhopal.
+        </p>
+
+        <p>
+          Customers can connect with Shri Adinath Realty to
+          understand available plot sizes, project features,
+          location information and arrange a site visit.
+        </p>
+
+        <p>
+          We encourage customers to review and independently
+          verify relevant property documents, approvals,
+          measurements, title information and other legal
+          matters before making a purchase decision.
+        </p>
+
+      </div>
+
+
+      <!-- BUSINESS INFORMATION -->
+
+      <div class="business-card">
+
+        <h3>
+          Business Information
+        </h3>
+
+
+        <div class="detail">
+
+          <strong>
+            Business Name
+          </strong>
+
+          <span>
+            Shri Adinath Realty
+          </span>
+
+        </div>
+
+
+        <div class="detail">
+
+          <strong>
+            Featured Project
+          </strong>
+
+          <span>
+            Manoram Premium Farms
+          </span>
+
+        </div>
+
+
+        <div class="detail">
+
+          <strong>
+            Location
+          </strong>
+
+          <span>
+            Near Ratibad Road, Bhopal,
+            Madhya Pradesh
+          </span>
+
+        </div>
+
+
+        <div class="detail">
+
+          <strong>
+            Property Type
+          </strong>
+
+          <span>
+            Farmhouse Plots
+          </span>
+
+        </div>
+
+
+        <div class="detail">
+
+          <strong>
+            Contact
+          </strong>
+
+          <span>
+            +91 9630947909
+          </span>
+
+        </div>
+
+
+        <div class="detail">
+
+          <strong>
+            Website
+          </strong>
+
+          <span>
+            shriadinathrealty.com
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       MANORAM PROJECT
+  ========================== -->
+
+  <section class="section soft-section">
+
+    <div class="container">
+
+      <div class="section-heading">
+
+        <div class="section-label">
+          Featured Project
+        </div>
+
+        <h2>
+          Manoram Premium Farms
+        </h2>
+
+        <p>
+          A farmhouse-plot project near Ratibad Road, Bhopal,
+          presented by Shri Adinath Realty for customers
+          considering weekend living, lifestyle use or
+          property investment.
+        </p>
+
+      </div>
+
+
+      <div class="project-grid">
+
+
+        <div class="project-card">
+
+          <div class="project-card-number">
+            01
+          </div>
+
+          <h3>
+            Location
+          </h3>
+
+          <p>
+            Near Ratibad Road, Bhopal,
+            with access towards the
+            Bhopal–Indore route.
+          </p>
+
+        </div>
+
+
+        <div class="project-card">
+
+          <div class="project-card-number">
+            02
+          </div>
+
+          <h3>
+            Plot Options
+          </h3>
+
+          <p>
+            Project information includes
+            plot sizes ranging from
+            4,770 to 11,700 sq ft.
+          </p>
+
+        </div>
+
+
+        <div class="project-card">
+
+          <div class="project-card-number">
+            03
+          </div>
+
+          <h3>
+            Internal Roads
+          </h3>
+
+          <p>
+            25 ft RCC internal roads
+            are listed among the
+            project features.
+          </p>
+
+        </div>
+
+
+        <div class="project-card">
+
+          <div class="project-card-number">
+            04
+          </div>
+
+          <h3>
+            Water & Power
+          </h3>
+
+          <p>
+            Individual water connections
+            and 24×7 power supply are
+            listed project features.
+          </p>
+
+        </div>
+
+
+        <div class="project-card">
+
+          <div class="project-card-number">
+            05
+          </div>
+
+          <h3>
+            Security
+          </h3>
+
+          <p>
+            Entrance security and CCTV
+            surveillance are included
+            among the project features.
+          </p>
+
+        </div>
+
+
+        <div class="project-card">
+
+          <div class="project-card-number">
+            06
+          </div>
+
+          <h3>
+            Green Surroundings
+          </h3>
+
+          <p>
+            Plantation and open surroundings
+            form part of the project's
+            nature-oriented positioning.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- INTERNAL LINKS -->
+
+      <div class="hero-buttons" style="margin-top:35px;">
+
+        <a
+          href="/#amenities"
+          class="btn"
+          style="
+            background:#173d2c;
+            color:white;
+          "
+        >
+          View All Amenities →
+        </a>
+
+        <a
+          href="/#location"
+          class="btn"
+          style="
+            background:#c89a3c;
+            color:white;
+          "
+        >
+          Explore Location →
+        </a>
+
+        <a
+          href="/#plots"
+          class="btn"
+          style="
+            border:1px solid #173d2c;
+            color:#173d2c;
+          "
+        >
+          View Plot Options →
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       WHY PROJECT
+  ========================== -->
+
+  <section class="section">
+
+    <div class="container">
+
+      <div class="section-heading">
+
+        <div class="section-label">
+          Project Approach
+        </div>
+
+        <h2>
+          Built around the idea of space.
+        </h2>
+
+        <p>
+          Manoram Premium Farms brings together farmhouse
+          plot options and project infrastructure for
+          customers considering a more open, nature-oriented
+          property setting near Bhopal.
+        </p>
+
+      </div>
+
+
+      <div class="why-grid">
+
+
+        <div class="why-card">
+
+          <h3>
+            Weekend Living
+          </h3>
+
+          <p>
+            A property setting intended for customers
+            looking for a place to spend weekends and
+            enjoy more open surroundings.
+          </p>
+
+        </div>
+
+
+        <div class="why-card">
+
+          <h3>
+            Nature-Oriented Lifestyle
+          </h3>
+
+          <p>
+            Plantation and open surroundings contribute
+            to the project's nature and lifestyle
+            positioning.
+          </p>
+
+        </div>
+
+
+        <div class="why-card">
+
+          <h3>
+            Multiple Plot Sizes
+          </h3>
+
+          <p>
+            Project information includes different plot
+            size options, allowing customers to explore
+            the available layouts according to their needs.
+          </p>
+
+        </div>
+
+
+        <div class="why-card">
+
+          <h3>
+            Site Visit Support
+          </h3>
+
+          <p>
+            Customers can contact Shri Adinath Realty
+            to discuss the project and arrange a site
+            visit before making a decision.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       LOCATION
+  ========================== -->
+
+  <section class="section soft-section">
+
+    <div class="container">
+
+      <div class="location-box">
+
+
+        <div>
+
+          <div class="section-label">
+            Project Location
+          </div>
+
+          <h2>
+            Near Ratibad Road,
+            Bhopal
+          </h2>
+
+          <p>
+            Manoram Premium Farms is presented as a
+            farmhouse-plot project near Ratibad Road,
+            Bhopal, with access towards the Bhopal–Indore
+            route.
+          </p>
+
+          <a
+            href="/#location"
+            class="btn btn-primary"
+            style="margin-top:15px;"
+          >
+            View Full Location Details →
+          </a>
+
+        </div>
+
+
+        <div class="location-list">
+
+
+          <div class="location-item">
+
+            <strong>
+              Approx. 1.25 KM*
+            </strong>
+
+            <span>
+              From Ratibad Road access
+            </span>
+
+          </div>
+
+
+          <div class="location-item">
+
+            <strong>
+              Approx. 300 M*
+            </strong>
+
+            <span>
+              BSF Mega Campus
+            </span>
+
+          </div>
+
+
+          <div class="location-item">
+
+            <strong>
+              Approx. 300 M*
+            </strong>
+
+            <span>
+              IIIT Bhopal
+            </span>
+
+          </div>
+
+
+          <div class="location-item">
+
+            <strong>
+              Approx. 1 KM*
+            </strong>
+
+            <span>
+              Proposed 120 ft Ring Road
+            </span>
+
+          </div>
+
+
+          <div class="location-item">
+
+            <strong>
+              Approx. 3 KM*
+            </strong>
+
+            <span>
+              Samasgarh Jain Tirth
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="disclaimer">
+
+        *Location distances and proposed development
+        descriptions are based on project-provided
+        information and should be independently verified
+        before making a property decision.
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       FINAL CTA
+  ========================== -->
+
+  <section class="section">
+
+    <div class="container">
+
+      <div class="cta">
+
+        <div>
+
+          <div class="section-label">
+            Get in Touch
+          </div>
+
+          <h2>
+            Interested in Manoram Premium Farms?
+          </h2>
+
+          <p>
+            Talk to Shri Adinath Realty for project
+            information or schedule a site visit.
+          </p>
+
+        </div>
+
+
+        <div
+          style="
+            display:flex;
+            flex-wrap:wrap;
+            gap:10px;
+          "
+        >
+
+          <a
+            href="tel:+919630947909"
+            class="btn btn-primary"
+          >
+            Call Now
+          </a>
+
+          <a
+            href="https://wa.me/919630947909"
+            target="_blank"
+            rel="noopener"
+            class="btn"
+            style="
+              background:white;
+              color:#173d2c;
+            "
+          >
+            WhatsApp
+          </a>
+
+          <a
+            href="contact.html"
+            class="btn"
+            style="
+              border:1px solid rgba(255,255,255,.3);
+              color:white;
+            "
+          >
+            Contact Us
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="footer-grid">
+
+
+        <div>
+
+          <div class="footer-brand">
+            SHRI ADINATH REALTY
+          </div>
+
+          <p>
+            Real estate company based in Bhopal,
+            Madhya Pradesh, presenting Manoram Premium
+            Farms near Ratibad Road, Bhopal.
+          </p>
+
+        </div>
+
+
+        <div>
+
+          <div class="footer-title">
+            QUICK LINKS
+          </div>
+
+          <div class="footer-links">
+
+            <a href="/">
+              Home
+            </a>
+
+            <a href="about.html">
+              About Us
+            </a>
+
+            <a href="/#amenities">
+              Amenities
+            </a>
+
+            <a href="/#location">
+              Location
+            </a>
+
+            <a href="/#plots">
+              Plot Options
+            </a>
+
+            <a href="contact.html">
+              Contact Us
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div>
+
+          <div class="footer-title">
+            PROJECT
+          </div>
+
+          <div class="footer-links">
+
+            <a href="/">
+              Manoram Premium Farms
+            </a>
+
+            <a href="/#brochure">
+              View Brochure
+            </a>
+
+            <a href="/#visit">
+              Book Site Visit
+            </a>
+
+            <a href="tel:+919630947909">
+              +91 9630947909
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="copyright">
+
+        © 2026 Shri Adinath Realty · Manoram Premium Farms ·
+        Bhopal, Madhya Pradesh
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>

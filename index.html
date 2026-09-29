@@ -1915,7 +1915,43 @@
         color: var(--gold-light);
       }
     }
+/* =========================
+       BLINKING BUTTON
+    ========================== */
 
+    @keyframes blinkGlow {
+      0%, 100% {
+        opacity: 1;
+        box-shadow: 0 0 10px rgba(230, 200, 120, 0.8);
+        transform: scale(1);
+      }
+      50% {
+        opacity: 0.6;
+        box-shadow: 0 0 25px rgba(200, 154, 60, 1);
+        transform: scale(1.03);
+      }
+    }
+
+    .blink-btn {
+      background: var(--gold) !important;
+      color: #ffffff !important;
+      font-weight: 700;
+      padding: 10px 18px;
+      border-radius: 50px;
+      animation: blinkGlow 1.5s infinite ease-in-out;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      text-transform: uppercase;
+      font-size: 11px;
+      letter-spacing: 0.05em;
+    }
+
+    .blink-btn:hover {
+      animation: none;
+      opacity: 1;
+      background: #b8892f !important;
+    }
   </style>
 
 </head>
@@ -2020,7 +2056,9 @@
         <a href="#visit">
           Site Visit
         </a>
-
+<a href="#enquiry" class="blink-btn">
+          ✨ Free Site Visit Now
+        </a>
         <a
           href="#enquiry"
           class="nav-cta"
